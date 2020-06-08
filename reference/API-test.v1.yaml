@@ -1,0 +1,25 @@
+openapi: 3.0.0
+info:
+  title: API test
+  version: '1.0'
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /users/get:
+    get:
+      summary: testop
+      tags: []
+      responses: {}
+      operationId: get-users-get
+      description: testdesc
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                teststr:
+                  type: string
+            examples: {}
+components:
+  schemas: {}
