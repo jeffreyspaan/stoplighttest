@@ -21,5 +21,16 @@ paths:
                 teststr:
                   type: string
             examples: {}
+          application/xml:
+            schema:
+              type:
+                - object
+                - string
+  /BLABLABLA:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: get-BLABLABLA
 components:
   schemas: {}
